@@ -11,7 +11,7 @@
 -- see design.md's Non-Goals. Retention (~26 weeks) is enforced by the writer
 -- pruning old rows each run, not by anything in this schema.
 --
--- Applied to a fresh volume by initdb after 0086; on an existing prod volume
+-- Applied to a fresh volume by initdb after 0087; on an existing prod volume
 -- run this manually before deploying code that reads it (per the migrations
 -- gotcha).
 
