@@ -1,6 +1,9 @@
 - company: Anthropic
   board: anthropic
+  provider: greenhouse
 - company: Stripe
   board: stripe
+  provider: greenhouse
 - company: Vercel
   board: vercel
+  provider: greenhouse
