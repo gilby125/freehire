@@ -58,4 +58,4 @@ COPY --from=typst /usr/local/bin/typst /app/typst
 ENV TYPST_BIN=/app/typst
 EXPOSE 8080
 USER nonroot:nonroot
-ENTRYPOINT ["/app/hire"]
+CMD ["/app/hire"]
